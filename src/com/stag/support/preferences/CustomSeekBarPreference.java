@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.dirtyunicorns.support.preferences;
+package com.stag.support.preferences;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -33,7 +33,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.support.v7.preference.*;
 
-import com.dirtyunicorns.support.R;
+import com.stag.support.R;
 
 public class CustomSeekBarPreference extends Preference implements SeekBar.OnSeekBarChangeListener {
     private final String TAG = getClass().getName();
